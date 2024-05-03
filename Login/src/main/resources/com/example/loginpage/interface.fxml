@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+   <left>
+      <AnchorPane prefHeight="500.0" prefWidth="350.0" style="-fx-background-color: #035bff;" BorderPane.alignment="CENTER">
+         <children>
+            <FontAwesomeIconView fill="WHITE" glyphName="BOOK" layoutX="147.0" layoutY="271.0" size="60" />
+         </children></AnchorPane>
+   </left>
+   <center>
+      <AnchorPane prefHeight="500.0" prefWidth="378.0" BorderPane.alignment="CENTER">
+         <children>
+            <TextField layoutX="109.0" layoutY="205.0" promptText="Username" style="-fx-background-color: transparent; -fx-border-color: #035bff; -fx-border-width: 0px 0px 2px;" />
+            <PasswordField layoutX="109.0" layoutY="275.0" promptText="Password" style="-fx-background-color: transparent; -fx-border-color: #035bff; -fx-border-width: 0px 0px 2px;" />
+            <FontAwesomeIconView fill="#035bff" glyphName="USER" layoutX="92.0" layoutY="224.0" size="16" text="" />
+            <FontAwesomeIconView fill="#035bff" glyphName="KEY" layoutX="90.0" layoutY="294.0" size="16" />
+            <Button layoutX="126.0" layoutY="366.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="114.0" style="-fx-background-color: #035bff; -fx-border-radius: 5px;" text="Login" textFill="WHITE">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <FontAwesomeIconView fill="#035bff" glyphName="USERS" layoutX="157.0" layoutY="129.0" size="35" text="" textAlignment="CENTER" wrappingWidth="35.25710582733154" />
+            <Text fill="#035bff" layoutX="144.0" layoutY="160.0" strokeType="OUTSIDE" strokeWidth="0.0" text="USER LOGIN">
+               <font>
+                  <Font name="Calibri Bold" size="12.0" />
+               </font>
+            </Text>
+            <Button layoutX="309.0" layoutY="14.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="26.0" style="-fx-background-color: TRANPARENT;">
+               <graphic>
+                  <FontAwesomeIconView fill="#035bff" glyphName="CLOSE" size="20" />
+               </graphic>
+            </Button>
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>
